@@ -1,0 +1,27 @@
+import java.stl
+
+public interface cpu_chess {
+
+  public void move();
+  public String[] decide();
+  public void learn();
+  public void print_board();
+}
+
+public class cpu implements cpu_chess {
+  //private
+  //private
+  //private
+  public void move() {
+    String[4] coordinate;
+    coordinate = decide();
+    space = coordinate;
+    print_board();
+  }
+  public String[] decide() {
+    char move_coor = Math.randInt(10)
+  }
+  
+
+
+
